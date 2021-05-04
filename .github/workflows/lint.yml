@@ -24,7 +24,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+      
+      - name: Install Poetry
+        uses: snok/install-poetry@v1.1.4
+      
       # Runs a single command using the runners shell
       - name: Run the linter
         run: make lint
