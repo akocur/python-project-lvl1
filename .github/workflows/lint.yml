@@ -28,9 +28,8 @@ jobs:
       - name: Install Poetry
         uses: snok/install-poetry@v1.1.4
       
-      - name: poetry install
+      - name: Install dependencies
         run: make install
      
-      # Runs a single command using the runners shell
       - name: Run the linter
         run: make lint
