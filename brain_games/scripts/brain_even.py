@@ -82,5 +82,10 @@ def is_correct_answer(question, answer):
     return correct_answer == answer
 
 
+def congratulations(user_name):
+    """Print message when user is win."""
+    print('Congratulations, {0}!'.format(user_name))
+
+
 if __name__ == '__main__':
     main()
