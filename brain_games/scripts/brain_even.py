@@ -51,5 +51,20 @@ def get_answer():
     return prompt.string('Your answer: ')
 
 
+def game_over(user_name, answer, correct_answer):
+    """Print messages when user lose.
+
+    :param str user_name:
+        User name.
+    :param str answer:
+        User answer.
+    :param str correct_answer:
+        Correct answer.
+    """
+    print("'{0}' is wrong answer ;(. Correct answer was '{1}'."
+          .format(answer, correct_answer))
+    print("Let's try again, {0}!".format(user_name))
+
+
 if __name__ == '__main__':
     main()
