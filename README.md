@@ -7,3 +7,5 @@
 ### Linter status:
 [![Actions Status](https://github.com/akocur/python-project-lvl1/workflows/lint/badge.svg)](https://github.com/akocur/python-project-lvl1/actions)
 
+### Demo of the brain-even game:
+https://asciinema.org/a/GoYhlneK4VjKG8Jguk8K86hjB
