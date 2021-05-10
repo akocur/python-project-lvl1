@@ -8,6 +8,7 @@ def welcome_user():
     Returns:
         string: user name
     """
+    print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(name))  # noqa: WPS421
     return name
