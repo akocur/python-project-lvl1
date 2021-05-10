@@ -7,7 +7,6 @@ user_name = None
 
 def main():
     """Entry point."""
-    print('Welcome to the Brain Games!')
     global user_name
     user_name = welcome_user()
 
