@@ -87,5 +87,17 @@ def congratulations(user_name):
     print('Congratulations, {0}!'.format(user_name))
 
 
+def get_correct_answer(question):
+    """Get correct answer.
+
+    :returns:
+        "yes" if question is even number else "no"
+    :rtype:
+        str
+    """
+    global answer_yes, answer_no
+    return answer_yes if is_even_number(question) else answer_no
+
+
 if __name__ == '__main__':
     main()
