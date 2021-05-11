@@ -8,6 +8,13 @@ def show_game_rules():
 
 
 def ask_question():
+    """Ask question. First, second numbers and operation are chosen randomly.
+
+    :returns:
+        tuple number_one, operation, number_two
+    :rtype
+        (int, string, int)
+    """
     number_one = randint(0, 100)
     number_two = randint(0, 100)
     available_operation = '+-*'
