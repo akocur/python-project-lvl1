@@ -9,3 +9,7 @@
 
 ### Demo of the brain-even game:
 https://asciinema.org/a/GoYhlneK4VjKG8Jguk8K86hjB
+
+### Demo of the brain-calc game:
+https://asciinema.org/a/f4HGnm38lRKsSXA0nr7noNhYF
+
