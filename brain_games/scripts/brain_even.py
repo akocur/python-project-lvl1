@@ -40,11 +40,6 @@ def ask_question():
     return number
 
 
-def congratulations(user_name):
-    """Print message when user is win."""
-    print('Congratulations, {0}!'.format(user_name))
-
-
 def get_correct_answer(question):
     """Get correct answer.
 
