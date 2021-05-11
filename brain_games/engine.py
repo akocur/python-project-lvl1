@@ -8,7 +8,7 @@ def run(game_module):
         Game module.
     :return:
     """
-    user_name = game_module.welcome_user()
+    user_name = welcome_user()
     question_count = 3
     for _ in range(question_count):
         question = game_module.ask_question()
@@ -19,6 +19,18 @@ def run(game_module):
         print('Correct!')
     else:
         congratulations(user_name)
+
+
+def welcome_user():
+    """Asks for a name and greets.
+
+        Returns:
+            string: user name
+        """
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print('Hello, {0}!'.format(name))  # noqa: WPS421
+    return name
 
 
 def get_answer():
