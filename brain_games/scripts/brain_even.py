@@ -40,15 +40,7 @@ def ask_question():
     return number
 
 
-def get_answer():
-    """Get user answer.
 
-    :returns:
-        User answer.
-    :rtype:
-        str
-    """
-    return prompt.string('Your answer: ')
 
 
 def game_over(user_name, answer, correct_answer):
