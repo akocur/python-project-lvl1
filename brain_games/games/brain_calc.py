@@ -22,3 +22,21 @@ def ask_question():
     expression = '{0} {1} {2}'.format(number_one, operation, number_two)
     print('Question: ', expression)
     return number_one, operation, number_two
+
+
+def get_correct_answer(question):
+    """Get correct answer on question
+
+    :param (int, string, int) question:
+        Question in the form of tuple number_one, operation, number_two
+    :returns:
+        Correct answer on question
+    :rtype:
+        str
+    """
+    number_one, operation, number_two = question
+    return str(evaluate_expression(number_one, operation, number_two))
+
+
+def evaluate_expression(number_one, operation, number_two):
+    pass
