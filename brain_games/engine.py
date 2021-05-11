@@ -15,7 +15,8 @@ def run(game_module):
         question = game_module.ask_question()
         answer = get_answer()
         if not is_correct_answer(game_module, question, answer):
-            game_over(user_name, answer, game_module.get_correct_answer(question))
+            correct_answer = game_module.get_correct_answer(question)
+            game_over(user_name, answer, correct_answer)
             break
         print('Correct!')
     else:
