@@ -43,3 +43,8 @@ def is_correct_answer(game_module, question, answer):
     """
     correct_answer = game_module.get_correct_answer(question)
     return correct_answer == answer
+
+
+def congratulations(user_name):
+    """Print message when user is win."""
+    print('Congratulations, {0}!'.format(user_name))
