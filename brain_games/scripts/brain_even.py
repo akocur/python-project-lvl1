@@ -40,22 +40,6 @@ def ask_question():
     return number
 
 
-def is_correct_answer(question, answer):
-    """Check if the answer is correct.
-
-    :param int question:
-        Any integer number. See ask_question() function.
-    :param str answer:
-        User answer. See get_answer() function.
-    :returns:
-        True if answer is correct else False
-    :rtype:
-        bool
-    """
-    correct_answer = get_correct_answer(question)
-    return correct_answer == answer
-
-
 def congratulations(user_name):
     """Print message when user is win."""
     print('Congratulations, {0}!'.format(user_name))
