@@ -1,5 +1,20 @@
+from random import randint
+
 answer_yes = 'yes'
 answer_no = 'no'
+
+
+def ask_question():
+    """Ask a question to the user.
+
+    :returns:
+        Number to determine whether it is even or not.
+    :rtype:
+        int
+    """
+    number = randint(0, 100)  # noqa: S311
+    print('Question:', number)
+    return number
 
 
 def get_correct_answer(question):
