@@ -52,17 +52,6 @@ def get_correct_answer(question):
     return answer_yes if is_even_number(question) else answer_no
 
 
-def is_even_number(number):
-    """Check if number is even.
-
-    :param int number:
-        Any number.
-    :returns:
-        True if number is even else False.
-    :rtype:
-        bool
-    """
-    return number % 2 == 0
 
 
 if __name__ == '__main__':
