@@ -9,6 +9,7 @@ def run(game_module):
     :return:
     """
     user_name = welcome_user()
+    game_module.show_game_rules()
     question_count = 3
     for _ in range(question_count):
         question = game_module.ask_question()
