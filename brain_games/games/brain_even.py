@@ -1,7 +1,22 @@
+import prompt
 from random import randint
 
 answer_yes = 'yes'
 answer_no = 'no'
+
+
+def welcome_user():
+    """Asks for a name and greets.
+
+        Returns:
+            string: user name
+        """
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print('Hello, {0}!'.format(name))  # noqa: WPS421
+    print('Answer "{0}" if the number is even, otherwise answer "{1}".'
+          .format(answer_yes, answer_no))
+    return name
 
 
 def ask_question():
