@@ -39,4 +39,24 @@ def get_correct_answer(question):
 
 
 def evaluate_expression(number_one, operation, number_two):
-    pass
+    """Evaluate expression
+
+    :param int number_one:
+        First number.
+    :param str operation:
+        Operation. Available + - *
+    :param int number_two:
+        Second number.
+    :return:
+        Result of the expression.
+    :rtype:
+        int
+    """
+    if operation == '+':
+        return number_one + number_two
+    if operation == '-':
+        return number_one - number_two
+    if operation == '*':
+        return number_one * number_two
+    raise RuntimeError('Failed to evaluate expression. Unknown operation {0}'
+                       .format(operation))
