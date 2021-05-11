@@ -3,6 +3,7 @@ from random import choice
 
 
 def show_game_rules():
+    """Show game rules."""
     print("What is the result of the expression?")
 
 
