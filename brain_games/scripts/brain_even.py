@@ -40,18 +40,6 @@ def ask_question():
     return number
 
 
-def get_correct_answer(question):
-    """Get correct answer.
-
-    :returns:
-        "yes" if question is even number else "no"
-    :rtype:
-        str
-    """
-    global answer_yes, answer_no
-    return answer_yes if is_even_number(question) else answer_no
-
-
 
 
 if __name__ == '__main__':
