@@ -1,4 +1,5 @@
 from random import randint
+from math import gcd
 
 
 def show_game_rules():
@@ -19,3 +20,17 @@ def ask_question():
     expression = '{0} {1}'.format(number_one, number_two)
     print('Question: ', expression)
     return number_one, number_two
+
+
+def get_correct_answer(question):
+    """Get correct answer on question
+
+    :param (int, int) question:
+        Question in the form of tuple number_one, number_two
+    :returns:
+        Correct answer on question
+    :rtype:
+        str
+    """
+    number_one, number_two = question
+    return str(gcd(number_one, number_two))
