@@ -28,3 +28,18 @@ def ask_question():
             print('..', end=' ')
         print(number, enc=' ')
     return progression, index_of_missing_number
+
+
+def get_correct_answer(question):
+    """Get correct answer on question
+
+    :param (range, int) question:
+        Question in the form of tuple progression, index_of_missing_number
+    :returns:
+        Correct answer on question
+    :rtype:
+        str
+    """
+    progression, index_of_missing_number = question
+    missing_number = tuple(progression)[index_of_missing_number]
+    return str(missing_number)
