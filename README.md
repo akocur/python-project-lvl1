@@ -13,3 +13,5 @@ https://asciinema.org/a/GoYhlneK4VjKG8Jguk8K86hjB
 ### Demo of the brain-calc game:
 https://asciinema.org/a/f4HGnm38lRKsSXA0nr7noNhYF
 
+### Demo of the brain-gcd game:
+https://asciinema.org/a/P4BpeZwGpui0VLrXuIME2GOvo
