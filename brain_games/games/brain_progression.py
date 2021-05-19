@@ -26,7 +26,9 @@ def ask_question():
     for index, number in enumerate(progression):
         if index == index_of_missing_number:
             print('..', end=' ')
-        print(number, enc=' ')
+            continue
+        print(number, end=' ')
+    print()
     return progression, index_of_missing_number
 
 
