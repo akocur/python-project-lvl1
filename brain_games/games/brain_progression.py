@@ -20,7 +20,9 @@ def ask_question():
     progression_step = randint(1, 10)
     progression_start = randint(1, 10)
     progression_stop = progression_start + progression_step * progression_length
-    progression = range(progression_start, progression_stop + 1, progression_step)
+    progression = range(progression_start,
+                        progression_stop + 1,
+                        progression_step)
     index_of_missing_number = randint(0, progression_length - 1)
     print('Question:', end=' ')
     for index, number in enumerate(progression):
