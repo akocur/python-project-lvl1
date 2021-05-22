@@ -17,3 +17,21 @@ def ask_question():
     number = randint(0, 100)
     print('Question: ', number)
     return number
+
+
+def get_correct_answer(question):
+    """Get correct answer on question
+
+    :param int question:
+        Question. see ask_question() function
+    :returns:
+        Correct answer on question
+    :rtype:
+        str
+    """
+    correct_question = 'yes' if is_prime(question) else 'no'
+    return correct_question
+
+
+def is_prime(number):
+    pass
