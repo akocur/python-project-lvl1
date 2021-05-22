@@ -48,4 +48,3 @@ def is_prime(number):
         if number % divisor == 0:
             return False
     return True
-
