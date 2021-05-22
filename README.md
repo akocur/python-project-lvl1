@@ -18,3 +18,6 @@ https://asciinema.org/a/P4BpeZwGpui0VLrXuIME2GOvo
 
 ### Demo of the brain-progression game:
 https://asciinema.org/a/3de0llBJemh6GQeT0oGdiUX0A
+
+### Demo of the brain-prime game:
+https://asciinema.org/a/QThrQk4o2q9pnRWElQ63unFp4
