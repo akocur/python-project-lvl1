@@ -34,4 +34,18 @@ def get_correct_answer(question):
 
 
 def is_prime(number):
-    pass
+    """Check whether the number is prime.
+
+    :param int number:
+    :returns:
+        True if the number is prime else False
+    :rtype:
+        bool
+    """
+    if number <= 1:
+        return False
+    for divisor in range(2, number // 2 + 1):
+        if number % divisor == 0:
+            return False
+    return True
+
