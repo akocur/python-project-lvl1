@@ -15,7 +15,7 @@ def ask_question():
         int
     """
     number = randint(0, 100)
-    print('Question: ', number)
+    print('Question:', number)
     return number
 
 

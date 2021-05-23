@@ -18,7 +18,7 @@ def ask_question():
     number_one = randint(0, 100)
     number_two = randint(0, 100)
     expression = '{0} {1}'.format(number_one, number_two)
-    print('Question: ', expression)
+    print('Question:', expression)
     return number_one, number_two
 
 

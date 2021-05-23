@@ -20,7 +20,7 @@ def ask_question():
     available_operation = '+-*'
     operation = choice(available_operation)
     expression = '{0} {1} {2}'.format(number_one, operation, number_two)
-    print('Question: ', expression)
+    print('Question:', expression)
     return number_one, operation, number_two
 
 
