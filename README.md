@@ -1,3 +1,5 @@
+"Brain Games" is a set of five console games built on the principle of popular mobile applications for brain pumping. Each game asks questions that need to be answered correctly. After three correct answers, it is considered that the game is completed. Incorrect answers end the game and offer to pass it again.
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/akocur/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/akocur/python-project-lvl1/actions)
 
