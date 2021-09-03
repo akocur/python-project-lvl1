@@ -6,7 +6,7 @@ build:
 	poetry build
 publish:
 	poetry publish --dry-run
-package-install:
+package-install: build
 	python3 -m pip install --user --force-reinstall dist/*.whl
 package-uninstall:
 	pip uninstall hexlet-code
