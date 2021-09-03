@@ -2,24 +2,34 @@
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/akocur/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/akocur/python-project-lvl1/actions)
+[![Actions Status](https://github.com/akocur/python-project-lvl1/workflows/lint/badge.svg)](https://github.com/akocur/python-project-lvl1/actions)
 
 ### CodeClimate
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
-### Linter status:
-[![Actions Status](https://github.com/akocur/python-project-lvl1/workflows/lint/badge.svg)](https://github.com/akocur/python-project-lvl1/actions)
+## Installation
+
+```bash
+python3 -m pip install --user --force-reinstall git+https://github.com/akocur/python-project-lvl1.git
+```
+
+## Uninstallation
+
+```bash
+python3 -m pip uninstall hexlet-code
+```
 
 ### Demo of the brain-even game:
-https://asciinema.org/a/GoYhlneK4VjKG8Jguk8K86hjB
+[![asciicast](https://asciinema.org/a/lA5asq3OtoNSRKdKmAAQk6fND.svg)](https://asciinema.org/a/lA5asq3OtoNSRKdKmAAQk6fND)
 
 ### Demo of the brain-calc game:
-https://asciinema.org/a/f4HGnm38lRKsSXA0nr7noNhYF
+[![asciicast](https://asciinema.org/a/YbgMZu6TOx7t7EMRExefxp5QX.svg)](https://asciinema.org/a/YbgMZu6TOx7t7EMRExefxp5QX)
 
 ### Demo of the brain-gcd game:
-https://asciinema.org/a/P4BpeZwGpui0VLrXuIME2GOvo
+[![asciicast](https://asciinema.org/a/tgP6NkiAG0O29i0kNh4TbOo9e.svg)](https://asciinema.org/a/tgP6NkiAG0O29i0kNh4TbOo9e)
 
 ### Demo of the brain-progression game:
-https://asciinema.org/a/3de0llBJemh6GQeT0oGdiUX0A
+[![asciicast](https://asciinema.org/a/YzJvsK3MPv2ZgVzrs0FqtAXla.svg)](https://asciinema.org/a/YzJvsK3MPv2ZgVzrs0FqtAXla)
 
 ### Demo of the brain-prime game:
-https://asciinema.org/a/QThrQk4o2q9pnRWElQ63unFp4
+[![asciicast](https://asciinema.org/a/LpD9fmbOXzNsGNYbdCKacvTr7.svg)](https://asciinema.org/a/LpD9fmbOXzNsGNYbdCKacvTr7)
